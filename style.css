@@ -76,11 +76,20 @@
     border: none;
     border-radius: 10px;
 }
-.icon{
-    padding-top: 0px;
-}
 .input input{
     padding: 10px;
     border: 1px solid gray;
     border-radius: 5px;
+    padding-left: 40px;
+}
+.input-container{
+    position: relative;
+}
+.input-container input{
+    padding-left: 25px;
+}
+.input-container i{
+    margin-left: -95%;
+    position: absolute;
+    top: 30%;
 }
