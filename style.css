@@ -93,12 +93,12 @@
     position: absolute;
     top: 30%;
 }
-#brand-section, #body-type-section{
+#brand-section, #body-type-section, #collection-section,.collection-section-header-container{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
 }
-.brand-section-container,.body-type-section-container{
+.brand-section-container,.body-type-section-container, .collection-section-container{
     width: 90vw;
 }
 .brand-section-header,.body-type-section-header{
@@ -136,4 +136,31 @@
 }
 .p{
     white-space: nowrap;
+}
+#collection-section{
+    background-color:  #E5E4E2;
+    padding-bottom: 40px;
+    margin-bottom: unset;
 } 
+.collection-section-header{
+    width: 55%;
+    text-align: center;
+}
+.collection-section-header p{
+    padding: 15px 0px;
+}
+.collection-section-header ul li{
+    display: inline;
+    padding: 7px 5px ;
+}
+.collection-section-header ul li a{
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    padding: 7px 15px;
+    border-radius: 30px;
+}
+.collection-section-header ul li:first-of-type a{
+    background-color: #000000;
+    color: #ffffff;
+}
