@@ -1,0 +1,72 @@
+@media (max-width: 600px) {
+    .header-content-3{
+        display: none;
+    }
+    .home-container p{
+        font-size: 20px;
+    }
+    .form-container{
+        align-items: center;
+    }
+    .form{
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    .brand-content, .body-type-content{
+        width: 30%;
+    }
+    .convertible, .limousine, .wagon, .kia{
+        width: 100px;
+    }
+    .kia{
+        width: 95px;
+    }
+    .brand-content p, .body-type-content p{
+        font-size: 15px;
+    }
+    .collection-section-header ul li{
+        display: block;
+        margin: 15px 0px;
+    }
+    .collection-section-header, .how-section-header, .service-section-header{
+        width: 65%;
+    }
+    .collection-grid, .service-grid{
+        grid-template-columns: auto;
+    }
+    .how-container, .download-section-container, .download-button-container, .footer-container{
+        flex-direction: column;
+    }
+    .how-container .car-image{
+        width: 100%;
+        height: auto;
+    }
+    .car-image img{
+        width:90%;
+        height: auto;
+    }
+    .how-content-empty{
+        display: none;
+    }
+    .how-content-steps{
+        position: relative;
+        width: 100%;
+    }
+    .service-section-header{
+        margin-left: -180px;
+    }
+    .download-section-container .download-content{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .download-button{
+        margin: 10px 0px;
+    }
+    .footer-logo, .footer-nav, .footer-social{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0px;
+    }
+}
